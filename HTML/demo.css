@@ -74,6 +74,10 @@ a:visited
 {
     color: red;
 }
+a:focus
+{
+    color: orange;
+}
 a:hover
 {
     color: rgb(179, 255, 0);
