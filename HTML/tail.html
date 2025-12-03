@@ -7,6 +7,31 @@
     <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
 </head>
 <body>
-    <button class="bg-blue-900 text-white px-6 py-3 rounded">click me </button>
+    <button class="bg-red-500 lg:bg-blue-500 p-10 text-white rounded">Moni Vlog</button>
+    <div class="bid-white-900 p-6 m-4 rounded shadow-md">
+        <h1 class="text-2xl font-bold mb-4">Hello, Tailwind CSS!</h1>
+        <p class="text-gray-700">This is a simple example of using Tailwind CSS in an HTML file.</p>
+    </div>
+    <picture>
+  <!-- Large screen image -->
+  <source srcset="https://m.media-amazon.com/images/I/41ZRT2a7kHL._AC_UF1000,1000_QL80_.jpg" media="(min-width: 1024px)">
+  
+  <!-- Medium screen image -->
+  <source srcset="https://i.pinimg.com/564x/36/7d/b9/367db944d4bc9a72aebb64c9e8a5ef69.jpg" media="(min-width: 640px)">
+
+  <!-- Default small image -->
+  <img 
+    src="https://www.saugatonline.com/products_image/1106-1.jpg"
+
+    class="
+      w-32 sm:w-48 lg:w-64
+      border-4
+      border-red-500 sm:border-yellow-500 lg:border-blue-600
+      rounded-none sm:rounded-lg lg:rounded-full
+      transition-all duration-300
+    "
+  />
+</picture>
+
 </body>
 </html>
