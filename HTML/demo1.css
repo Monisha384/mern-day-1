@@ -1,0 +1,194 @@
+
+.subscribe-button {
+    background-color: rgb(76, 175, 80); 
+    color: white;
+    padding: 25px 42px;
+    text-align: center;
+    border:none;
+    font-size: 16px;
+    font-weight:bold; ;
+    margin: 4px 2px;
+    border-radius: 22px;
+    cursor:pointer;
+
+}
+.subscribe-button:hover {
+    opacity: 0.6;
+}
+.button-text {
+    font-weight: bold;
+}
+.button-icon {
+    margin-left: 8px;
+    font-size: 20px;
+}
+div
+{
+  margin-top: 100px;
+  margin-left: 100px;
+  border: solid black 2px;
+  width: 300px;
+  height: 150px;
+  
+}
+h1
+{
+  position:relative;
+  top: 40px;
+  left: 20px;
+  text-align: center;
+  color: blue;
+  font-family: 'times new roman', times, serif;
+  font-size: 24px;
+}
+h2
+{
+  position:absolute;
+  top: 80px;
+  left: 20px;
+  text-align: center;
+  color: red;
+  font-family: 'times new roman', times, serif;
+  font-size: 20px;
+
+}
+
+h3
+{
+  position:fixed;
+  top: 120px;
+  left: 20px;
+  text-align: center;
+  color: green;
+  font-family: 'times new roman', times, serif;
+  font-size: 16px;
+
+}
+.std{
+        position: fixed;
+        top: 100px;
+        right: 70px;
+        background-color: orange;
+
+    }
+
+.stick{
+        position: sticky;
+        top: 100px;
+        left: 0px;
+        background-color: lightgreen;
+    }
+.one
+{
+  background-color: yellow;
+  border:none;
+    height:100px;
+  width:100px;
+  margin:20px;
+  position:relative;
+  left:50px;
+  top:30px;
+  z-index:3;
+}
+.two
+{
+  background-color: lightblue;
+  border:none;
+  height:100px;
+  width:100px;
+  margin:20px;
+  position:relative;
+  left:40px;
+  top:100px;
+  z-index: 4;
+  
+}
+.three
+{
+  background-color: lightgreen;
+  border:none;
+  height:100px;
+  width:100px;
+  margin:20px;
+  position:relative;
+  left:30px;
+  bottom:100px;
+  z-index:6
+
+}
+.four
+{
+  background-color: lightcoral;
+  border:none;
+  height:100px;
+  width:100px;
+  margin:20px;
+  position:relative;
+  left:20px;
+  bottom:200px;
+  z-index:5
+
+}
+.five
+{
+  background-color: lightpink;
+  border:none;
+  height:100px;
+  width:100px;
+  margin:20px;
+  position:relative;
+  left:10px;
+  bottom:300px;
+  z-index:2
+
+}
+.six
+{
+  width: 200px;
+  height: 155px;
+  background-color: coral;
+  overflow: visible;
+  overflow: scroll; 
+
+}
+
+.container {
+  display: flex;
+  background-color: DodgerBlue;
+  justify-content: center;
+  padding: 100px;
+}
+
+.container div {
+  background-color: #f1f1f1;
+  margin: 10px;
+  padding: 20px;
+  font-size: 30px
+}
+
+
+
+.gallery {
+  display: flex;
+  flex-wrap: wrap;   
+  gap: 20px;
+  padding: 100px;
+  justify-content: space-evenly;
+  justify-content: left;
+  background: #f2f2f2;
+  border: 2px solid black;
+  width: 90%;            
+}
+
+.gallery img {
+  width: 150px;
+  height: 150px;
+  object-fit: cover;
+  border-radius: 12px;
+  transition: 0.3s ease;
+}
+
+.gallery img:hover {
+  transform: scale(1.1); 
+  box-shadow: 0 4px 12px rgba(0,0,0,0.3);
+}
