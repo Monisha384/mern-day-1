@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Contact Form</title>
+</head>
+<body>
+
+<h2>Student Contact Form</h2>
+
+<form>
+
+    <!-- Name -->
+    <label for="name">Name of the Student:</label><br>
+    <input type="text" id="name" name="name" placeholder="Enter your Name"><br><br>
+
+    <!-- Email -->
+    <label for="email">Email:</label><br>
+    <input type="email" id="email" name="email" placeholder="email"><br><br>
+
+    <!-- Age -->
+    <label for="age">Age:</label><br>
+    <input type="number" id="age" name="age"><br><br>
+
+    <!-- Gender -->
+    <label>Gender:</label><br>
+    <input type="radio" id="male" name="gender" value="Male">
+    <label for="male">Male</label><br>
+
+    <input type="radio" id="female" name="gender" value="Female">
+    <label for="female">Female</label><br><br>
+
+    <!-- Hobbies -->
+    <label>Hobbies:</label><br>
+    <input type="checkbox" id="reading" name="hobbies" value="Reading">
+    <label for="reading">Reading</label><br>
+
+    <input type="checkbox" id="music" name="hobbies" value="Music">
+    <label for="music">Music</label><br>
+
+    <input type="checkbox" id="sports" name="hobbies" value="Sports">
+    <label for="sports">Sports</label><br><br>
+
+    <!-- Message -->
+    <label for="message">Message:</label><br>
+    <textarea id="message" name="message" rows="4" cols="30"></textarea><br><br>
+
+    <!-- Submit Button -->
+    <button type="submit">Submit</button><br><br>
+
+<!-- Existing form fields -->
+
+<label for="email">Email:</label><br>
+    <input type="email" id="email" name="email" required><br><br>
+
+    <label for="password">Password:</label><br>
+    <input type="password" id="password" name="password" required><br><br>
+
+    <label for="age">Age:</label><br>
+    <input type="number" id="age" name="age" min="1" max="100" required><br><br>
+
+    <label for="phone">Phone:</label><br>
+    <input type="tel" id="phone" name="phone" pattern="[0-9]{10}" placeholder="1234567890" required><br><br>
+
+    <label for="website">Website:</label><br>
+    <input type="url" id="website" name="website" placeholder="https://example.com"><br><br>
+
+    <label for="file">Upload File:</label><br>
+    <input type="file" id="file" name="file" required><br><br>
+
+    <label for="date">Date:</label><br>
+    <input type="date" id="date" name="date" required><br><br>
+
+    <label for="time">Time:</label><br>
+    <input type="time" id="time" name="time" required><br><br>
+
+    <label for="month">Month:</label><br>
+    <input type="month" id="month" name="month"><br><br>
+
+    <label for="week">Week:</label><br>
+    <input type="week" id="week" name="week"><br><br>
+
+    <label for="course">Select Course:</label><br>
+    <select id="course" name="course" required>
+        <option value="">--Select--</option>
+        <option value="mern">MERN</option>
+        <option value="python">Python</option>
+        <option value="java">Java</option>
+        <option value="datascience">Data Science</option>
+    </select><br><br>
+
+    <input type="submit" value="Submit">
+    <input type="reset" value="Reset">
+    <input type="button" value="Click">
+
+</form>
+
+</body>
+</html>
